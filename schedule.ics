@@ -22,20 +22,29 @@ END:DAYLIGHT
 END:VTIMEZONE
 
 BEGIN:VEVENT
-UID:fri-quran-breakfast-late@example.com
+UID:fri-concerta@example.com
 DTSTAMP:20241201T120000Z
-DTSTART;TZID=America/Toronto:20241220T065000
-DTEND;TZID=America/Toronto:20241220T072000
-SUMMARY:Qur'an & Breakfast (Post-Fajr)
+DTSTART;TZID=America/Toronto:20241220T054500
+DTEND;TZID=America/Toronto:20241220T055500
+SUMMARY:Meds (Concerta)
 CATEGORIES:Personal
 END:VEVENT
 
 BEGIN:VEVENT
-UID:fri-packclean-morning-only@example.com
+UID:fri-quran-breakfast-preFajr@example.com
 DTSTAMP:20241201T120000Z
-DTSTART;TZID=America/Toronto:20241220T072000
-DTEND;TZID=America/Toronto:20241220T081000
-SUMMARY:Packing & Cleaning (No Task Switching)
+DTSTART;TZID=America/Toronto:20241220T060000
+DTEND;TZID=America/Toronto:20241220T063000
+SUMMARY:Qur'an & Breakfast (Pre-Fajr)
+CATEGORIES:Personal
+END:VEVENT
+
+BEGIN:VEVENT
+UID:fri-fajr@example.com
+DTSTAMP:20241201T120000Z
+DTSTART;TZID=America/Toronto:20241220T063000
+DTEND;TZID=America/Toronto:20241220T064000
+SUMMARY:Fajr Prayer
 CATEGORIES:Personal
 END:VEVENT
 
@@ -85,6 +94,15 @@ CATEGORIES:Personal
 END:VEVENT
 
 BEGIN:VEVENT
+UID:fri-packclean-afternoon@example.com
+DTSTAMP:20241201T120000Z
+DTSTART;TZID=America/Toronto:20241220T171000
+DTEND;TZID=America/Toronto:20241220T182500
+SUMMARY:Packing & Cleaning
+CATEGORIES:Personal
+END:VEVENT
+
+BEGIN:VEVENT
 UID:fri-isha@example.com
 DTSTAMP:20241201T120000Z
 DTSTART;TZID=America/Toronto:20241220T182500
@@ -94,11 +112,29 @@ CATEGORIES:Personal
 END:VEVENT
 
 BEGIN:VEVENT
-UID:fri-evening-urology-tfl@example.com
+UID:fri-packclean-finish@example.com
 DTSTAMP:20241201T120000Z
-DTSTART;TZID=America/Toronto:20241220T171000
+DTSTART;TZID=America/Toronto:20241220T183500
+DTEND;TZID=America/Toronto:20241220T190000
+SUMMARY:Finish Packing & Cleaning if Needed
+CATEGORIES:Personal
+END:VEVENT
+
+BEGIN:VEVENT
+UID:fri-urology-evening@example.com
+DTSTAMP:20241201T120000Z
+DTSTART;TZID=America/Toronto:20241220T190000
+DTEND;TZID=America/Toronto:20241220T213000
+SUMMARY:Pediatric Urology Project
+CATEGORIES:Urology
+END:VEVENT
+
+BEGIN:VEVENT
+UID:fri-tfl-data-late@example.com
+DTSTAMP:20241201T120000Z
+DTSTART;TZID=America/Toronto:20241220T213000
 DTEND;TZID=America/Toronto:20241220T220000
-SUMMARY:Pediatric Urology Project → TFL if Urology Done (Flexible)
+SUMMARY:TFL Data Extraction (If Urology Done Early)
 CATEGORIES:Urology
 END:VEVENT
 
